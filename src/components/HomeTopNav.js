@@ -29,7 +29,7 @@ function HomeTopNav() {
                 <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-text-red w3-hide-small w3-hide-medium"><strong>HOME</strong></a>
                 <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>ABOUT US</strong></a>            
                 <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>ADMISSION</strong></a>
-                <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>FEES</strong></a>
+                <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>FEES & PAYMENTS</strong></a>
                 <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>EVENTS & CALENDAR</strong></a>
                 <a href="/" className="w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium"><strong>RESULTS PORTAL</strong></a>
                 <a href="/" className="w3-cell w3-button w3-hide-small w3-hide-medium"><strong>ALUMNI</strong></a>
@@ -40,7 +40,7 @@ function HomeTopNav() {
                 <a href="/" className="w3-text-deep-orange"><div className="w3-button w3-round-large w3-card-2 w3-animate-left	" style={{width: "90%", marginBottom: "5px"}}><strong>HOME</strong></div></a>
                 <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ABOUT US</strong></div></a>            
                 <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ADMISSION</strong></div></a>            
-                <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>FEES</strong></div></a>            
+                <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>FEES & PAYMENTS</strong></div></a>            
                 <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>EVENTS & CALENDAR</strong></div></a>            
                 <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>RESULTS PORTAL</strong></div></a>            
                 <a href="/"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ALUMNI</strong></div></a>            
