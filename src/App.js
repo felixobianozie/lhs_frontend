@@ -24,7 +24,7 @@ function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="admission" element={<AdmissionPage />} />
             <Route path="fees" element={<FeesPage />} />
-            <Route path="calendar" element={<CalendarPage />} />
+            <Route path="events" element={<CalendarPage />} />
             <Route path="results" element={<ResultsPage />} />
             <Route path="alumni" element={<AlumniPage />} />
             <Route path="*" element={<NoPage />} />

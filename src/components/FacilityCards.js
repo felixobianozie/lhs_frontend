@@ -4,7 +4,7 @@ Facility cards
 
 function FacilityCards({name, desc, photo}) {
     return(
-        <div class="w3-container w3-col m6 l4 w3-padding-16">
+        <div className="w3-container w3-col m6 l4 w3-padding-16">
             <div className="w3-card-4" style={{maxWidth:"400px", marginLeft:"auto", marginRight:"auto"}}>
                 <img src={photo} alt="Facility" style={{maxWidth:"100%"}}/>
                 <div className="w3-amber w3-container"><strong>{name}</strong></div>

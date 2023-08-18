@@ -3,15 +3,21 @@
  * and top navigation
  */
 
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import FlashMsg from "../FlashMsg";
+import HomeHeader from "../HomeHeader";
+import HomeTopNav from "../HomeTopNav";
+import Footer from "../Footer";
 
 function Layout() {
     return (
         <>
-            <div>Something is here</div>
+            <FlashMsg/> 
+            <HomeHeader/>
+            <HomeTopNav/>
             <Outlet />
+            <Footer />
         </>
-        
     )
 }
 
