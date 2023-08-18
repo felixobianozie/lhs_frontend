@@ -9,17 +9,25 @@ import { Link } from "react-router-dom";
 function HomeTopNav() {
     const active = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium w3-text-red';
     const inactive = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium';
+    const endLink = 'w3-cell w3-button w3-hide-small w3-hide-medium';
 
-    const [tabClass, setTabClass] = useState([active, inactive, inactive, inactive, inactive, inactive, inactive]);
+    const [tabClass, setTabClass] = useState([active, inactive, inactive, inactive, inactive, inactive, endLink]);
 
     const switchTabIndicator = (n) => {
         setTabClass(previousState => {
             let newState = [];
             for (let i = 0; i < previousState.length; i++) {
+                let tmp = active;
+                let tmp2 = inactive;
+                // remove border line from last navigation link
+                if (i === previousState.length - 1) {
+                    tmp = tmp.replace('w3-border-right w3-border-white', '');
+                    tmp2 = tmp2.replace('w3-border-right w3-border-white', '');
+                }
                 if (i === n) {
-                    newState.push(active);
+                    newState.push(tmp);
                 } else {
-                    newState.push(inactive);
+                    newState.push(tmp2);
                 }
             };
             return newState
