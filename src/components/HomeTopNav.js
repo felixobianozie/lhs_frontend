@@ -10,6 +10,7 @@ function HomeTopNav() {
     const active = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium w3-text-red';
     const inactive = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium';
     const endLink = 'w3-cell w3-button w3-hide-small w3-hide-medium';
+    const myTitle = ['LHS | Home', 'LHS | About', 'LHS | Admission', 'LHS | Payments', 'LHS | Calendar', 'LHS | Results', 'LHS | Alumni']
 
     const [tabClass, setTabClass] = useState([active, inactive, inactive, inactive, inactive, inactive, endLink]);
 
@@ -30,13 +31,10 @@ function HomeTopNav() {
                     newState.push(tmp2);
                 }
             };
+            document.title = myTitle[n];
             return newState
         });
       }
-
-      useEffect(() => {
-        document.title = 'LHS | About';
-      }, []);
 
     const dropDown = () => {
         let x = document.getElementById("home_nav");
