@@ -1,6 +1,7 @@
 /**
  * Login Modal
  */
+import { Link } from 'react-router-dom';
 import login from '../assets/header_logo.png'
 
 function LoginModal() {
@@ -35,10 +36,10 @@ function LoginModal() {
                             <button className="w3-button w3-block w3-blue w3-padding w3-section w3-round-large" type="submit">Login</button>
                         </div>
                     </form>
-                    <div className='w3-center' >Dont have an account? <a href="#" className='w3-text-light-blue'>Create Account</a></div>
+                    <div className='w3-center' >Dont have an account? <Link to="/signup" className='w3-text-light-blue'>Create Account</Link></div>
                     <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
                         <button onClick={() => hideModal('loginModal')} type="button" className="w3-button w3-border w3-border-red w3-round-large">Cancel</button>
-                        <span className="w3-right w3-padding">Forgot <a href="#">password?</a></span>
+                        <span className="w3-right w3-padding">Forgot password?</span>
                     </div>
                 </div>
             </div>

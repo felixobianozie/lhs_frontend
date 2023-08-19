@@ -13,6 +13,7 @@ import './styles/w3.css';
 import './styles/home_carousal.css';
 import './styles/home_nav_toggler.css';
 import "./styles/main.css";
+import SignUpPage from "./components/pages/SignUpPage";
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
             <Route path="alumni" element={<AlumniPage />} />
             <Route path="*" element={<NoPage />} />
             <Route path="login" element={<LoginPage />} />
+            <Route path="signup" element={<SignUpPage />} />
+
           </Route>
         </Routes>
       </BrowserRouter>
