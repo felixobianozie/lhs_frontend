@@ -85,13 +85,13 @@ function HomeTopNav() {
             </div>
             {/* header top navigation for mobile display */}
             <div id="home_nav" className="w3-center w3-hide w3-hide-large w3-animate-opacity">
-                <Link to="/"><div className={tabClassM[0]} onClick={() => switchTabIndicatorMobile(0)} style={mobileStyle}><strong>HOME</strong></div></Link>
-                <Link to="/about"><div className={tabClassM[1]} onClick={() => switchTabIndicatorMobile(1)} style={mobileStyle}><strong>ABOUT US</strong></div></Link>            
-                <Link to="/admission"><div className={tabClassM[2]} onClick={() => switchTabIndicatorMobile(2)} style={mobileStyle}><strong>ADMISSION</strong></div></Link>            
-                <Link to="/fees"><div className={tabClassM[3]} onClick={() => switchTabIndicatorMobile(3)} style={mobileStyle}><strong>FEES & PAYMENTS</strong></div></Link>            
-                <Link to="/events"><div className={tabClassM[4]} onClick={() => switchTabIndicatorMobile(4)} style={mobileStyle}><strong>EVENTS & CALENDAR</strong></div></Link>            
-                <Link to="/results"><div className={tabClassM[5]} onClick={() => switchTabIndicatorMobile(5)} style={mobileStyle}><strong>RESULTS & TRANSCRIPT</strong></div></Link>            
-                <Link to="/alumni"><div className={tabClassM[6]} onClick={() => switchTabIndicatorMobile(6)} style={mobileStyle}><strong>ALUMNI</strong></div></Link>            
+                <Link to="/"><div className={tabClassM[0]} onClick={() => {switchTabIndicatorMobile(0); dropDown()}} style={mobileStyle}><strong>HOME</strong></div></Link>
+                <Link to="/about"><div className={tabClassM[1]} onClick={() => {switchTabIndicatorMobile(1); dropDown()}} style={mobileStyle}><strong>ABOUT US</strong></div></Link>            
+                <Link to="/admission"><div className={tabClassM[2]} onClick={() => {switchTabIndicatorMobile(2); dropDown()}} style={mobileStyle}><strong>ADMISSION</strong></div></Link>            
+                <Link to="/fees"><div className={tabClassM[3]} onClick={() => {switchTabIndicatorMobile(3); dropDown()}} style={mobileStyle}><strong>FEES & PAYMENTS</strong></div></Link>            
+                <Link to="/events"><div className={tabClassM[4]} onClick={() => {switchTabIndicatorMobile(4); dropDown()}} style={mobileStyle}><strong>EVENTS & CALENDAR</strong></div></Link>            
+                <Link to="/results"><div className={tabClassM[5]} onClick={() => {switchTabIndicatorMobile(5); dropDown()}} style={mobileStyle}><strong>RESULTS & TRANSCRIPT</strong></div></Link>            
+                <Link to="/alumni"><div className={tabClassM[6]} onClick={() => {switchTabIndicatorMobile(6); dropDown()}} style={mobileStyle}><strong>ALUMNI</strong></div></Link>            
             </div>
         </>
     )
