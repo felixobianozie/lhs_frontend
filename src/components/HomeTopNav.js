@@ -10,8 +10,8 @@ function HomeTopNav() {
     const active = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium w3-text-red';
     const inactive = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium';
     const endLink = 'w3-cell w3-button w3-hide-small w3-hide-medium';
-    const activeM = "w3-button w3-round-large w3-card-2 w3-animate-left w3-text-red";
-    const inactiveM = "w3-button w3-round-large w3-card-2 w3-animate-left";
+    const activeM = "w3-button w3-round-large w3-card-2 w3-text-red";
+    const inactiveM = "w3-button w3-round-large w3-card-2";
     const myTitle = ['LHS | Home', 'LHS | About', 'LHS | Admission', 'LHS | Payments', 'LHS | Calendar', 'LHS | Results', 'LHS | Alumni']
     const mobileStyle = {width: "90%", marginBottom: "5px"}
 
@@ -84,7 +84,7 @@ function HomeTopNav() {
                 <SignInUpMobile/>
             </div>
             {/* header top navigation for mobile display */}
-            <div id="home_nav" className="w3-center w3-hide w3-hide-large w3-animate-opacity">
+            <div id="home_nav" className="w3-center w3-hide w3-hide-large w3-animate-zoom">
                 <Link to="/"><div className={tabClassM[0]} onClick={() => {switchTabIndicatorMobile(0); dropDown()}} style={mobileStyle}><strong>HOME</strong></div></Link>
                 <Link to="/about"><div className={tabClassM[1]} onClick={() => {switchTabIndicatorMobile(1); dropDown()}} style={mobileStyle}><strong>ABOUT US</strong></div></Link>            
                 <Link to="/admission"><div className={tabClassM[2]} onClick={() => {switchTabIndicatorMobile(2); dropDown()}} style={mobileStyle}><strong>ADMISSION</strong></div></Link>            

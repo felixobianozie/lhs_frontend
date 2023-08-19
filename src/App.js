@@ -8,6 +8,7 @@ import CalendarPage from './components/pages/CalendarPage';
 import AlumniPage from './components/pages/AlumniPage';
 import ResultsPage from './components/pages/ResultsPage';
 import NoPage from "./components/pages/NoPage";
+import LoginPage from "./components/pages/LoginPage";
 import './styles/w3.css';
 import './styles/home_carousal.css';
 import './styles/home_nav_toggler.css';
@@ -28,6 +29,7 @@ function App() {
             <Route path="results" element={<ResultsPage />} />
             <Route path="alumni" element={<AlumniPage />} />
             <Route path="*" element={<NoPage />} />
+            <Route path="login" element={<LoginPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
