@@ -1,7 +1,7 @@
 /**
  * Home top navigation
  */
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import SignInUpMobile from "./SignInUpMobile"
 import { Link } from "react-router-dom";
 
@@ -10,9 +10,13 @@ function HomeTopNav() {
     const active = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium w3-text-red';
     const inactive = 'w3-cell w3-button w3-border-right w3-border-white w3-hide-small w3-hide-medium';
     const endLink = 'w3-cell w3-button w3-hide-small w3-hide-medium';
+    const activeM = "w3-button w3-round-large w3-card-2 w3-animate-left w3-text-red";
+    const inactiveM = "w3-button w3-round-large w3-card-2 w3-animate-left";
     const myTitle = ['LHS | Home', 'LHS | About', 'LHS | Admission', 'LHS | Payments', 'LHS | Calendar', 'LHS | Results', 'LHS | Alumni']
+    const mobileStyle = {width: "90%", marginBottom: "5px"}
 
     const [tabClass, setTabClass] = useState([active, inactive, inactive, inactive, inactive, inactive, endLink]);
+    const [tabClassM, setTabClassM] = useState([activeM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM]);
 
     const switchTabIndicator = (n) => {
         setTabClass(previousState => {
@@ -35,6 +39,23 @@ function HomeTopNav() {
             return newState
         });
       }
+
+    const switchTabIndicatorMobile = (n) => {
+    setTabClassM(previousState => {
+        let newState = [];
+        for (let i = 0; i < previousState.length; i++) {
+            let tmp = activeM;
+            let tmp2 = inactiveM;
+            if (i === n) {
+                newState.push(tmp);
+            } else {
+                newState.push(tmp2);
+            }
+        };
+        document.title = myTitle[n];
+        return newState
+    });
+    }
 
     const dropDown = () => {
         let x = document.getElementById("home_nav");
@@ -69,13 +90,13 @@ function HomeTopNav() {
             </div>
             {/* header top navigation for mobile display */}
             <div id="home_nav" className="w3-center w3-hide w3-hide-large w3-animate-opacity">
-                <Link to="/" className="w3-text-deep-orange"><div className="w3-button w3-round-large w3-card-2 w3-animate-left	" style={{width: "90%", marginBottom: "5px"}}><strong>HOME</strong></div></Link>
-                <Link to="/about"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ABOUT US</strong></div></Link>            
-                <Link to="/admission"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ADMISSION</strong></div></Link>            
-                <Link to="/fees"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>FEES & PAYMENTS</strong></div></Link>            
-                <Link to="/events"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>EVENTS & CALENDAR</strong></div></Link>            
-                <Link to="/results"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>RESULTS & TRANSCRIPT</strong></div></Link>            
-                <Link to="/alumni"><div className="w3-button w3-round-large w3-card-2 w3-animate-left" style={{width: "90%", marginBottom: "5px"}}><strong>ALUMNI</strong></div></Link>            
+                <Link to="/"><div className={tabClassM[0]} onClick={() => switchTabIndicatorMobile(0)} style={mobileStyle}><strong>HOME</strong></div></Link>
+                <Link to="/about"><div className={tabClassM[1]} onClick={() => switchTabIndicatorMobile(1)} style={mobileStyle}><strong>ABOUT US</strong></div></Link>            
+                <Link to="/admission"><div className={tabClassM[2]} onClick={() => switchTabIndicatorMobile(2)} style={mobileStyle}><strong>ADMISSION</strong></div></Link>            
+                <Link to="/fees"><div className={tabClassM[3]} onClick={() => switchTabIndicatorMobile(3)} style={mobileStyle}><strong>FEES & PAYMENTS</strong></div></Link>            
+                <Link to="/events"><div className={tabClassM[4]} onClick={() => switchTabIndicatorMobile(4)} style={mobileStyle}><strong>EVENTS & CALENDAR</strong></div></Link>            
+                <Link to="/results"><div className={tabClassM[5]} onClick={() => switchTabIndicatorMobile(5)} style={mobileStyle}><strong>RESULTS & TRANSCRIPT</strong></div></Link>            
+                <Link to="/alumni"><div className={tabClassM[6]} onClick={() => switchTabIndicatorMobile(6)} style={mobileStyle}><strong>ALUMNI</strong></div></Link>            
             </div>
         </>
     )
