@@ -62,12 +62,7 @@ function HomeTopNav() {
         let y = document.getElementById("menu_dropdown");
 
         y.classList.toggle("change");
-
-        if (x.className.indexOf("w3-show") === -1) { 
-        x.className += " w3-show";
-        } else {
-        x.className = x.className.replace(" w3-show", "");
-        }
+        x.classList.toggle("w3-show");
     }
 
     return (
