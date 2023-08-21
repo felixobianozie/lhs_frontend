@@ -9,11 +9,11 @@ import AlumniPage from './components/pages/AlumniPage';
 import ResultsPage from './components/pages/ResultsPage';
 import NoPage from "./components/pages/NoPage";
 import LoginPage from "./components/pages/LoginPage";
+import SignUpPage from "./components/pages/SignUpPage";
 import './styles/w3.css';
 import './styles/home_carousal.css';
 import './styles/home_nav_toggler.css';
 import "./styles/main.css";
-import SignUpPage from "./components/pages/SignUpPage";
 
 
 function App() {
@@ -32,7 +32,6 @@ function App() {
             <Route path="*" element={<NoPage />} />
             <Route path="login" element={<LoginPage />} />
             <Route path="signup" element={<SignUpPage />} />
-
           </Route>
         </Routes>
       </BrowserRouter>
