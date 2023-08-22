@@ -1,17 +1,21 @@
 /*
 Log in and account creation buttons for mobile and tablet screens
 */
-import { useEffect, useState, useRef, useContext } from "react";
-import AuthContext from "../../context/AuthProvider";
-import { Link } from "react-router-dom"
+import { useEffect, useState, useRef} from "react";
+import { Link, useLocation, useNavigate} from "react-router-dom"
 import axios from '../../api/axios'
+import useAuth from "../../hooks/useAuth";
 
 const LOGIN_URL = '/token/';
 
 function LoginPage() {
-    const { auth, setAuth } = useContext(AuthContext);
+    const { auth, setAuth } = useAuth();
     const  emailRef = useRef();
     const errRef = useRef();
+
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location?.state?.from?.pathname || '/'
 
     const [inputs, setInputs] = useState({});
     const [errMsg, setErrMsg] = useState('');
@@ -33,10 +37,11 @@ function LoginPage() {
                     withCredentials: true
                 }
             );
-            const access  = response?.data?.access;
-            setAuth({ email: inputs?.email, password: inputs?.password, access });
-            console.log(JSON.stringify(auth));
+            setAuth({ email: inputs?.email, password: inputs?.password,  accessToken: response?.data?.access, isAuthenticated: true});
             setInputs({...inputs, email:'', password:''});
+            console.log(JSON.stringify(auth)); // just for testing purposes only
+            navigate(from, {replace: true});
+            
         } catch (error) {
             if (error.response) {
                 // The request was made and the server responded with a status code
@@ -46,7 +51,7 @@ function LoginPage() {
                 } else if (error?.response?.status === 400){
                     setErrMsg('Missing username or password');
                 } else {
-                    setErrMsg('Unknown error! Try again.');
+                    setErrMsg('Unknown error! Please try again later.');
                 }
               } else if (error.request) {
                 // The request was made but no response was received
@@ -55,7 +60,7 @@ function LoginPage() {
                 setErrMsg('No server response. Check your internet connectivity.');
               } else {
                 // Something happened in setting up the request that triggered an Error
-                setErrMsg('Login Failed!');
+                setErrMsg('Login Failed! Please try again later.');
               }
               errRef.current.focus();
         }

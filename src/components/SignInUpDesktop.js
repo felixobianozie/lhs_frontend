@@ -11,7 +11,7 @@ function SignInUpDesktop() {
             <div className='w3-right' style={{maxWidth:"300px"}}>
                 <div>
                     <strong>
-                        <Link to='login'><div className='w3-button w3-round-large w3-orange w3-margin-right w3-small'>Log In</div></Link>
+                        <Link to='/dashboard'><div className='w3-button w3-round-large w3-orange w3-margin-right w3-small'>Log In</div></Link>
                         <Link to='signup'><div className='w3-button w3-round-large w3-blue w3-small'>Create Account</div></Link>                        
                     </strong>
                 </div>

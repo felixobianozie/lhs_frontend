@@ -10,6 +10,8 @@ import ResultsPage from './components/pages/ResultsPage';
 import NoPage from "./components/pages/NoPage";
 import LoginPage from "./components/pages/LoginPage";
 import SignUpPage from "./components/pages/SignUpPage";
+import DashboardPage from "./components/pages/DashboardPage";
+import RequireAuth from "./components/RequireAuth";
 import './styles/w3.css';
 import './styles/home_carousal.css';
 import './styles/home_nav_toggler.css';
@@ -22,6 +24,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
+            {/* Public routes */}
             <Route index element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="admission" element={<AdmissionPage />} />
@@ -33,6 +36,12 @@ function App() {
             <Route path="login" element={<LoginPage />} />
             <Route path="signup" element={<SignUpPage />} />
           </Route>
+            
+          {/* Protected routes */}
+          <Route path="/dashboard" element={<RequireAuth />}>
+            <Route index element={<DashboardPage />} />
+          </Route>
+
         </Routes>
       </BrowserRouter>
     </>
