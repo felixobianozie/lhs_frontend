@@ -1,1 +1,11 @@
 .felix-animate-fading{animation:fading 2s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.accordion{
+    overflow:auto;
+    max-height: 0vh;
+    transition: all 1s;
+}
+
+.slide{
+    max-height: 50vh;
+}

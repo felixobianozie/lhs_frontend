@@ -1,7 +1,7 @@
 /*
 Home Header
 */
-import header_logo from '../assets/header_logo.png'
+import header_logo from '../assets/lhs_logo.png'
 import smiley from '../assets/smiley 1 transparent.png'
 
 function HomeHeader() {
