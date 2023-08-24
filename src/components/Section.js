@@ -1,7 +1,6 @@
 
 function Section({ children, id, title}) {
     const arrowId = `${id}Arrow`;
-    console.log('sdfghj',arrowId,id);
 
     const myStyle = {marginBottom:'3px'};
     const myBtnClass = "w3-button w3-block w3-left-align w3-card-2";

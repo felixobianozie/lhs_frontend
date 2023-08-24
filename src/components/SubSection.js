@@ -4,7 +4,7 @@ function SubSection({ title, content }) {
             <h6 className="w3-center">
                 <strong>{title}</strong>
             </h6>
-                { content }
+            { content }
         </>
     )
 }

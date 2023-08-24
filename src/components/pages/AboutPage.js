@@ -2,7 +2,7 @@
  * About us page
  */
 import about from '../../assets/about.png';
-import * as aboutContent from '../../text/about'
+import * as aboutContent from '../../content/about'
 import Section from '../Section';
 import SubSection from '../SubSection';
 
@@ -60,36 +60,36 @@ function AboutPage() {
                 <Section id="m&v" title="Mission & Vission">
                     <SubSection 
                         title="Mission" 
-                        content={aboutContent.trendsAssessment}
+                        content={aboutContent.mission}
                     />
                     <SubSection 
                         title="Vission" 
-                        content={aboutContent.trendsAssessment}
+                        content={aboutContent.vision}
                     />
                 </Section>
 
                 <Section id="a&p" title="Anthem & Pledge">
                     <SubSection 
                         title="School Anthem" 
-                        content={aboutContent.trendsAssessment}
+                        content={aboutContent.anthem}
                     />
                     <SubSection 
                         title="School Pledge" 
-                        content={aboutContent.trendsAssessment}
+                        content={aboutContent.pledge}
                     />
                 </Section>
                 
                 <Section id="board" title="Board of Governors">
                     <SubSection 
-                        title="School Anthem" 
-                        content={aboutContent.trendsAssessment}
+                        title="" 
+                        content={aboutContent.board}
                     />
                 </Section>
                 
                 <Section id="mgt" title="Management Staff">
                     <SubSection 
-                        title="School Anthem" 
-                        content={aboutContent.trendsAssessment}
+                        title="" 
+                        content={aboutContent.mgtStaff}
                     />
                 </Section>
                 
@@ -100,7 +100,7 @@ function AboutPage() {
                     />
                 </Section>
 
-                <Section id="why" title="See Why Your Child Belongs Here!">
+                <Section id="why" title="20 Reasons Why Your Child Belongs Here!">
                     <SubSection 
                         title="" 
                         content={aboutContent.whyUs}

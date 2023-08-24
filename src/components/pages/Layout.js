@@ -8,6 +8,7 @@ import FlashMsg from "../FlashMsg";
 import HomeHeader from "../HomeHeader";
 import HomeTopNav from "../HomeTopNav";
 import Footer from "../Footer";
+import UnderDev from "../UnderDevModal";
 
 function Layout() {
     return (
@@ -15,6 +16,7 @@ function Layout() {
             <FlashMsg/> 
             <HomeHeader/>
             <HomeTopNav/>
+            <UnderDev />
             <Outlet />
             <Footer />
         </>

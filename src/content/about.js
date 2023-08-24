@@ -22,8 +22,10 @@ export const howItAllStarted = (
         </p>
 
         <p>
-            These successful twenty eight pioneer students along with seasoned members of staff started what Ofonime Inyang described as "a well rounded qualitative and result oriented secondary education at the premises of Boechler Memorial Primary School" on <b>January 28, 1950</b>. Rev. J. P Kretzmann who led in this historical devotion on that occasion took his lesson from Deutronomy 6: 6 - 9. <blockquote>"And these words, which I commend thee this day, shall be in thine heart: and thou shall talk of them when thou sittest in thine house, and when. thou walkest by the way, and when thou liest down, and when thou risest up. And thou shall bind then for a sign upon thine hand and they shall be as frontlets between thine eyes. And thou shall write them upon the post of thy house, and on thy gates" (KJV)</blockquote>
+            These successful twenty eight pioneer students along with seasoned members of staff started what Ofonime Inyang described as "a well rounded qualitative and result oriented secondary education at the premises of Boechler Memorial Primary School" on <b>January 28, 1950</b>. Rev. J. P Kretzmann who led in this historical devotion on that occasion took his lesson from Deutronomy 6: 6 - 9
         </p>
+        <blockquote>"And these words, which I commend thee this day, shall be in thine heart: and thou shall talk of them when thou sittest in thine house, and when. thou walkest by the way, and when thou liest down, and when thou risest up. And thou shall bind then for a sign upon thine hand and they shall be as frontlets between thine eyes. And thou shall write them upon the post of thy house, and on thy gates" (KJV)
+        </blockquote>
 
         <p>
             These words of the Lord ministered on the first day of opening created great impact not only on the lives of the students and members of the staff, but on the institution itself. No wonder Lutheran High School, Obot Idim has made so much impact globally in all fields of human endeavour. It is very true that Lutheran High School, Obot Idim was established on Christian foundation. The result of her achievement is enviable; positive impact made is enormous, her contribution to academic excellence and manpower development globally is unparalleled.
@@ -34,16 +36,20 @@ export const howItAllStarted = (
         </p>
 
         <p>
-            The Rev. John Louis Konz deserves a special mention for his pioneering effort in laying a solid foundation on which the fledging institution needed and depended upon for sustenance and growth. It is on record that this young American missionary, teacher and administrator nurtured the right kind of leadership potentials, which the School thrived on. It is to his credit that a wide range of subjects were taught, the students cutting across the sciences to the liberal arts. Mr. E. E. Nkanga, Dr. Ime Udo, HRM Edidem Ita Bassey Etuk, all agreed that they received motivation which has impacted their lives and endeavours from the leadership style and administrative disposition of Rev. J. L. Konz. In his good will message to the Golden Jubilee Anniversary, the Rev. Konz exuded some level of complimentary devotion to the ideals which he set up as a pioneer head of the institution. His words… <blockquote>"We recall the faithfulness of the tutors and the discipline and determination of the students to succeed." (Konz 2000)</blockquote>
-        </p>
+            The Rev. John Louis Konz deserves a special mention for his pioneering effort in laying a solid foundation on which the fledging institution needed and depended upon for sustenance and growth. It is on record that this young American missionary, teacher and administrator nurtured the right kind of leadership potentials, which the School thrived on. It is to his credit that a wide range of subjects were taught, the students cutting across the sciences to the liberal arts. Mr. E. E. Nkanga, Dr. Ime Udo, HRM Edidem Ita Bassey Etuk, all agreed that they received motivation which has impacted their lives and endeavours from the leadership style and administrative disposition of Rev. J. L. Konz. In his good will message to the Golden Jubilee Anniversary, the Rev. Konz exuded some level of complimentary devotion to the ideals which he set up as a pioneer head of the institution. His words…
+        </p> 
+        <blockquote>"We recall the faithfulness of the tutors and the discipline and determination of the students to succeed." (Konz 2000)
+        </blockquote>
 
         <p>
             Following Rev. Konz was the dynamic forward-looking, amiable disciplinarian Mr. A. A. Obot who succeeded the Rev. Konz as principal. Mr. Obot goes down the record as the very first African and indigenous person to head the institution. He was ably supported by a disciplined crop of teaching staff which included Mr. E. A. Ubom. Mr. E. B. Attah, Mr. P. Dharmapalam, Mr. SM. Udofia, Mr. A. E. Inyang, Mr. O. E. Okpo, Mr. J. Ekanem, Mr. E. K. Nwankwo, Mr. U. P. Akanwan. Miss I. K. Odiba, Miss G. N Etim. Mr. B. A. Nyong, Mr. V. J. Ekong, Chief E. U Ekong, Mr. 0. I. Inyang, Mr. J. J. Ntia, Mr. E. N. Oko and, Mr. J. A. Ibanga.
         </p>
 
         <p>
-            Mr. A. A. Obot was very unrelenting in his pursuit of excellence in academic standard and discipline. In an article, which is published in "A Word from the Principal" column in the second volume of The Luthiscolian, the students association magazine, Mr. Obot enunciates the need for students to pursue their educational careers objectively. In his words: <blockquote>“I like to encourage our present and future students to study very hard for both themselves and for this nation”. (Luthiscolian: 8).</blockquote>
+            Mr. A. A. Obot was very unrelenting in his pursuit of excellence in academic standard and discipline. In an article, which is published in "A Word from the Principal" column in the second volume of The Luthiscolian, the students association magazine, Mr. Obot enunciates the need for students to pursue their educational careers objectively. In his words: 
         </p>
+        <blockquote>“I like to encourage our present and future students to study very hard for both themselves and for this nation”. (Luthiscolian: 8).
+        </blockquote>
 
         <p>
             Many students of the institution who belonged to the pioneer class have also made tremendous impact in their chosen field of endeavour. Examples are: Engr. Koon Akpanekong, Etim John Nkop, Eteidung (Barr.) Ita Etuk, Eyo Udo Ekong (Senior Prefect) among others. Other former students of the school in subsequent years have also registered the name of the school on the marble of history. Examples are Dr. Ime Joseph Udo who is a physician of reputable standing, Mr. Otu Ben Udo (former School Prefect), Mrs. May Usoro ( former Girls' Prefect now a retired school administrator), Rev. Dr. Udo Etuk, scholar and University Professor, Justices Edet R. Nkop, Effiong D. U. Idiong - former Chief Judges of Akwa Ibom State, Engr. Martin Essien formerly of the Petroleum Training Institute, Efurrun, Delta State, Rev. Offiong Udo Idiong, Obong Aqua E. Aqua, former National President of RAlTAWU, now Director, AKS Ministry of Culture and Tourism, former Principal of Lutheran High School, Obot Idim, Mrs. Nsidibe Ekong, Okon Efanga Akpabio, HRH Chief Dr. John Dennis Osaronu, Air Marshall Nsikak Eduok. former Chief of Air Staff, Air Commodore Ita Udo Ime, former Minister for Aviation, DIG Archibong Nkanga, retired Police Chief, Engr. Enobong Billy Etuk, businessman and politician, Engr. Nse Idio, paint manufacturer/industrialist. Dr. Martin Akpan, prolific writer and medical practitioner, Rev. Dr. Uduakabasi B. Udofia, a medical doctor and international evangelist, Iniobong S. Jimmy, former General Manager, British Airways among others too numerous to mention.
@@ -117,61 +123,54 @@ export const chroniclesOfPrincipals = (
 
 export const factsFile = (
     <>
-        <p>
-            <ul>
-                <li><b>1936</b> Lutheran Church founded in Nigeria</li>
-                <li><b>1949</b> Lutheran Mission applied for establishment of schools</li>
-                <li><b>1950</b> Lutheran High School founded in Nigeria</li>
-                <li><b>1950</b> L. Konz became the pioneer principal</li>
-                <li><b>1950</b> 28 students (all males) were admitted in LHS</li>
-                <li><b>1952</b> Miss Dorah Effiong Udo became the first female student in LHS</li>
-                <li><b>1954</b> Eyo Udo Ekong became the first Gen. Prefect of LHS</li>
-                <li><b>1955</b> The first batch of students passed out</li>
-                <li><b>1956</b> The population grew to two streams</li>
-                <li><b>1957</b> Mr. A. A. Obot became the first black / indigenous principal</li>
-                <li><b>1959</b> Chemistry/Physics lab built</li>
-                <li><b>1959</b> School library built</li>
-                <li><b>1961</b> Lizzy Hall (female hostel) built</li>
-                <li><b>1963</b> LHS Chapel built</li>
-                <li><b>1963</b> LHS stadium constructed</li>
-                <li><b>1964</b> LHS students demanded for higher school A level programme</li>
-                <li><b>1964</b> Mrs. lbiatke Asuk became the first female student to make the best result in mathematics</li>
-                <li><b>1972</b> Government of the then South Eastern State took over the management of Lutheran High School, Obot Idim from Lutheran Church</li>
-                <li><b>1974</b> LHS made the best Result in WASC in the country</li>
-                <li><b>1976</b> LHS' name was changed to Secondary School, Obot Idim. It however reverted to its former name LHS in 1979</li>
-            </ul>
-        </p>
+        <ul>
+            <li><b>1936</b> Lutheran Church founded in Nigeria</li>
+            <li><b>1949</b> Lutheran Mission applied for establishment of schools</li>
+            <li><b>1950</b> Lutheran High School founded in Nigeria</li>
+            <li><b>1950</b> L. Konz became the pioneer principal</li>
+            <li><b>1950</b> 28 students (all males) were admitted in LHS</li>
+            <li><b>1952</b> Miss Dorah Effiong Udo became the first female student in LHS</li>
+            <li><b>1954</b> Eyo Udo Ekong became the first Gen. Prefect of LHS</li>
+            <li><b>1955</b> The first batch of students passed out</li>
+            <li><b>1956</b> The population grew to two streams</li>
+            <li><b>1957</b> Mr. A. A. Obot became the first black / indigenous principal</li>
+            <li><b>1959</b> Chemistry/Physics lab built</li>
+            <li><b>1959</b> School library built</li>
+            <li><b>1961</b> Lizzy Hall (female hostel) built</li>
+            <li><b>1963</b> LHS Chapel built</li>
+            <li><b>1963</b> LHS stadium constructed</li>
+            <li><b>1964</b> LHS students demanded for higher school A level programme</li>
+            <li><b>1964</b> Mrs. lbiatke Asuk became the first female student to make the best result in mathematics</li>
+            <li><b>1972</b> Government of the then South Eastern State took over the management of Lutheran High School, Obot Idim from Lutheran Church</li>
+            <li><b>1974</b> LHS made the best Result in WASC in the country</li>
+            <li><b>1976</b> LHS' name was changed to Secondary School, Obot Idim. It however reverted to its former name LHS in 1979</li>
+        </ul>
     </>
 );
 
 export const otherLandMarks = (
     <>
-        <p>
-            <ul>
-                <li>The first Old Student to head the school as principal - Rev. O. U. Idiong.</li>
-                <li>The first medical doctor produced by Lutheran High School, Obot Idim - Dr. Ime J. Udo</li>
-                <li>Prof. Nse Ekpo became the first nuclear physicist in Nigeria</li>
-                <li>The first product of Lutheran High School, Obot Idim to become the Chief Judge of a State (AKS) -  Justice Edet Nkop</li>
-                <li>The first product of the school to become Chief of Air Staff (Nigeria Air Force) - Air Marshall Nsikak Eduok.</li>
-                <li>The first to be made a federal minister - Air Marshall Nsikak Eduok</li>
-                <li>The first product of the school to be a Military Governor r- Navy Capt. Edet Akpan Archibong</li>
-                <li>The first product of the school to become AKS Deputy Governor - Ambassador Etim J. Okpoyo.</li>
-                <li>The first female product to head a professional association at the national level - Lady Eme Ufot Ekaette. She was also the first to become a federal Senator.</li>
-            </ul>   
-        </p>
+        <ul>
+            <li>The first Old Student to head the school as principal - Rev. O. U. Idiong.</li>
+            <li>The first medical doctor produced by Lutheran High School, Obot Idim - Dr. Ime J. Udo</li>
+            <li>Prof. Nse Ekpo became the first nuclear physicist in Nigeria</li>
+            <li>The first product of Lutheran High School, Obot Idim to become the Chief Judge of a State (AKS) -  Justice Edet Nkop</li>
+            <li>The first product of the school to become Chief of Air Staff (Nigeria Air Force) - Air Marshall Nsikak Eduok.</li>
+            <li>The first to be made a federal minister - Air Marshall Nsikak Eduok</li>
+            <li>The first product of the school to be a Military Governor r- Navy Capt. Edet Akpan Archibong</li>
+            <li>The first product of the school to become AKS Deputy Governor - Ambassador Etim J. Okpoyo.</li>
+            <li>The first female product to head a professional association at the national level - Lady Eme Ufot Ekaette. She was also the first to become a federal Senator.</li>
+        </ul>   
     </>
 );
 
 export const creditsAndReferences = (
     <>
-        <p>
-            <p><b>Culled from</b> the article LUTHERAN HIGH SCHOOL OBOT IDIM: HOW IT ALL BEGAN: (HISTORICAL PERSPECTIVE) by Pastor Mike Effiok-Abasi, DOS.</p>
-            <p><b>Extra inputs & modifications</b> by Current School Management.</p>
-            <b>Other References</b>
-            <p>Amamkpa, E. W., et al (1986): "A Short History of the Lutheran Church of Nigeria." Obot Idim: The Lutheran Press.</p>
-            <p>The LUTHISCOLIAN, Volume 2, Published by the Lutheran High School Students Association. 1963.</p>
-
-        </p>
+        <p><b>Culled from</b> the article LUTHERAN HIGH SCHOOL OBOT IDIM: HOW IT ALL BEGAN: (HISTORICAL PERSPECTIVE) by Pastor Mike Effiok-Abasi, DOS.</p>
+        <p><b>Extra inputs & modifications</b> by Current School Management.</p>
+        <b>Other References</b>
+        <p>Amamkpa, E. W., et al (1986): "A Short History of the Lutheran Church of Nigeria." Obot Idim: The Lutheran Press.</p>
+        <p>The LUTHISCOLIAN, Volume 2, Published by the Lutheran High School Students Association. 1963.</p>
     </>
 );
 
@@ -179,7 +178,7 @@ export const creditsAndReferences = (
 export const mission = (
     <>
         <p>
-            It has been a long walk from 1950 till date. Trends have changed. Modern academic requirements came with its new generation of pressures, but we have been agile and adaptive; vigorously keeping up with the ever changing trends of modern day school managment while preserving academic excellence. Overall, there is progress against all odds... 
+            Content is temporarily not available 
         </p>
     </>
 );
@@ -187,7 +186,42 @@ export const mission = (
 export const vision = (
     <>
         <p>
-            It has been a long walk from 1950 till date. Trends have changed. Modern academic requirements came with its new generation of pressures, but we have been agile and adaptive; vigorously keeping up with the ever changing trends of modern day school managment while preserving academic excellence. Overall, there is progress against all odds... 
+            Content is temporarily not available
+        </p>
+    </>
+);
+
+// Anthem & Pledge
+export const anthem = (
+    <>
+        <p>
+            Content is temporarily not available 
+        </p>
+    </>
+);
+
+export const pledge = (
+    <>
+        <p>
+            Content is temporarily not available
+        </p>
+    </>
+);
+
+// Board of Governors
+export const board = (
+    <>
+        <p>
+            Content is temporarily not available 
+        </p>
+    </>
+);
+
+// Management Staff
+export const mgtStaff = (
+    <>
+        <p>
+            Content is temporarily not available 
         </p>
     </>
 );
@@ -225,7 +259,7 @@ export const whyUs = (
             <li>Personalized Counselling, Leadership and Enterprenuership training programme for students</li>
             <li>Audio Visual teaching, e-teachning and Learning Facilities</li>
             <li>Expansive and well laid-out school premises</li>
-            <li>Extensive on ICT and Science Programmes</li>
+            <li>Extensive ICT and Science Programmes</li>
             <li>Serene and nature-friendly educational environment</li>
             <li>Discipline and core value training philosophy</li>
             <li>Security consciousness</li>
