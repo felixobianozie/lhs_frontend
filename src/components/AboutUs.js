@@ -2,6 +2,7 @@
 About us section
 */
 import about_us from "../assets/about_us.png"
+import { Link } from "react-router-dom"
 
 function AboutUs() {
     return (
@@ -19,7 +20,7 @@ function AboutUs() {
                         <li>Meet our administrators</li>
                         <li>See why we are your top choice</li>
                     </ul>
-                    <div className="w3-button w3-blue w3-round w3-section">About Us</div>
+                    <Link to='/about' className="w3-button w3-blue w3-round w3-section">About Us</Link>
                 </div>
             </div>
         </>

@@ -9,7 +9,7 @@ function HomeHeader() {
         <div className="w3-container w3-row">
             {/* header logo and description for mobile display */}
             <div className="w3-center w3-padding w3-hide-medium w3-hide-large">
-                <img src={header_logo} alt="School Logo" style={{maxWidth: "80px"}}></img>
+                <img src={header_logo} alt="School Logo" style={{maxWidth: "95px"}}></img>
                 <div className="w3-container">
                     <div className="w3-xlarge w3-text-indigo"><strong>Lutheran High School</strong></div>
                     <div className="w3-large">Obot Idim, Ibesikpo Asutan LGA.</div>   
@@ -18,7 +18,7 @@ function HomeHeader() {
             </div>
             {/* header logo and description for desktop display */}
             <div className="w3-col l6 m12 w3-padding w3-hide-small">
-            <img className="w3-left" src={header_logo} alt="School Logo" style={{maxWidth: "80px"}}></img>
+            <img className="w3-left" src={header_logo} alt="School Logo" style={{maxWidth: "95px"}}></img>
             <div className="w3-container w3-center w3-left">
                 <div className="w3-xlarge w3-text-indigo"><strong>Lutheran High School</strong></div>
                 <div className="w3-large">Obot Idim, Ibesikpo Asutan LGA.</div>   

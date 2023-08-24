@@ -4,6 +4,7 @@ Admission status and contact details
 import school_girl from "../assets/school_girl.jpeg"
 import ContactIcon from "./ContactIcon";
 import SocialMediaLinks from "./SocialMediaLinks";
+import { Link } from "react-router-dom";
 
 function AdmissionContact() {
     const mystyle = {
@@ -20,7 +21,7 @@ function AdmissionContact() {
                     ₦ 3,000. The application form can be filled and submitted online or 
                     physically. You would be scheduled for an entrance examination afterwards.
                     Follow the link below to see full details of our application process and entrance examination schedules.</p>
-                <div className="w3-button w3-blue w3-round-large">Admission</div>
+                <Link to='/admission' className="w3-button w3-blue w3-round-large">Admission</Link>
             </div>
             <div className="w3-col l6 w3-padding-64" style={{backgroundImage:`url(${school_girl})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
                 <strong>

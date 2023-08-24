@@ -10,7 +10,7 @@ function FacilityCards({name, desc, photo}) {
                 <div className="w3-amber w3-container"><strong>{name}</strong></div>
                 <div className='w3-container'>
                     <p style={{textAlign:"justify", textJustify:"inter-word"}}>{desc}</p>
-                    <div className='w3-section w3-button w3-blue w3-round w3-small'>Learn More</div>
+                    <div className='w3-section w3-button w3-blue w3-round w3-small'>See All</div>
                 </div>
             </div>
         </div>
