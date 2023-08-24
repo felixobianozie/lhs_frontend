@@ -11,7 +11,7 @@ function FeesPage() {
                 <div className="w3-black w3-circle w3-padding-16" style={{width:"300px", marginRight:"auto", marginLeft:"auto"}}><strong>Fees & Payments</strong></div> 	
             </div>            
             <div className='w3-light-gray w3-container' style={{minHeight:'60vh'}}>
-                <div>Below is a breakdown our current fees and payments for 2023/2024 academic session.</div>
+                <div>Content is temporarily not available</div>
             </div>
         </>
     )

@@ -38,7 +38,7 @@ function AdmissionPage() {
                         content={admissionContent.entranceExamDates}
                     />
                 </Section> 
-                <Section id="result" title="Check Entrance Examination Result">
+                <Section id="entranceResult" title="Check Entrance Examination Result">
                     <SubSection 
                         title="" 
                         content={admissionContent.entranceExamResults}
