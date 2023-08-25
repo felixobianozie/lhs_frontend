@@ -1,7 +1,7 @@
 /*
 Facilities section of the home page
 */
-import SectionHeader from "./SectionHeader"
+import HomeSectionHeader from "./HomeSectionHeader"
 import FacilityCards from "./FacilityCards"
 import ict from '../assets/ict_lab.jpg'
 import library from "../assets/library.jpg"
@@ -20,7 +20,7 @@ function Facilities(){
 
     return(
         <div className='w3-containter w3-sand'>
-            <SectionHeader name="OUR FACILITIES" />
+            <HomeSectionHeader name="OUR FACILITIES" />
             <div className='w3-container w3-row'>
                 <FacilityCards name="ICT Laboratory" desc = {abtICT} photo={ict}/>
                 <FacilityCards name="Library" desc={abtLibrary} photo={library}/>

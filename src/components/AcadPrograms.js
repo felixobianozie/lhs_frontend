@@ -4,13 +4,13 @@ School academic programs
 import waec from "../assets/waec_logo.png"
 import neco from "../assets/neco_logo.png"
 import sat from "../assets/sat_logo.png"
-import SectionHeader from "./SectionHeader"
+import HomeSectionHeader from "./HomeSectionHeader"
 
 
 function AcadPrograms() {
     return (
         <>
-            <SectionHeader name="ACADEMIC PROGRAMS" />
+            <HomeSectionHeader name="ACADEMIC PROGRAMS" />
             <div className="w3-container w3-padding-64 w3-row">
                 <div className="w3-center w3-col l4 w3-section">
                     <img className="" src={waec} alt="WAEC" style={{maxWidth:"200px"}}/>

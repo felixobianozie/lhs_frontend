@@ -57,28 +57,31 @@ function AboutPage() {
                     />
                 </Section>
 
-                <Section id="m&v" title="Mission & Vission">
+                <Section id="a&p" title="School Anthem">
                     <SubSection 
-                        title="Mission" 
-                        content={aboutContent.mission}
-                    />
-                    <SubSection 
-                        title="Vission" 
-                        content={aboutContent.vision}
+                        title="" 
+                        content={aboutContent.anthem}
                     />
                 </Section>
 
-                <Section id="a&p" title="Anthem & Pledge">
+                <Section id="m&v" title="Golden School Rules & Regulations">
                     <SubSection 
-                        title="School Anthem" 
-                        content={aboutContent.anthem}
+                        title="" 
+                        content={aboutContent.pdf}
                     />
                     <SubSection 
-                        title="School Pledge" 
-                        content={aboutContent.pledge}
+                        title="PREAMBLE" 
+                        content={aboutContent.preamble}
                     />
+                    <SubSection 
+                        title="REPORTING ON REOPENING AND CLOSING" 
+                        content={aboutContent.openingAndClosing}
+                    />   
+                    <SubSection 
+                        title="STUDENTS MOVEMENTS (DAY/NIGHT)" 
+                        content={aboutContent.movements}
+                    />                  
                 </Section>
-                
                 <Section id="board" title="Board of Governors">
                     <SubSection 
                         title="" 
@@ -100,7 +103,7 @@ function AboutPage() {
                     />
                 </Section>
 
-                <Section id="why" title="20 Reasons Why Your Child Belongs Here!">
+                <Section id="why" title="We are the ultimate! See why.">
                     <SubSection 
                         title="" 
                         content={aboutContent.whyUs}

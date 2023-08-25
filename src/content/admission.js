@@ -38,9 +38,14 @@ export const admissionForm = (
             <b>PHYSICAL FORMS:</b> Our physical admission forms for the 2023/2024 academic session are currently available only at school premises at a fee of ₦3,000. The money may be paid over the counter at the point of getting the form or paid to our school bank account as follows:
         </p>
         <blockquote>
-        Lutheran High School Obot Idim<br/>
-        1234567890<br/>
+        Lutheran High School, Obot Idim<br/>
+        0107355105<br/>
         GTBank
+        </blockquote>
+        <blockquote>
+        Lutheran High School, Obot Idim<br/>
+        1011112061<br/>
+        Zenith Bank
         </blockquote>
         <p>
             You are required to come with your evidence of payment if you took this option.

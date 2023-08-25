@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { showUnderDev } from '../components/modals/UnderDevModal';
+
 // School History
 export const howItAllStarted = (
     <>
@@ -56,7 +59,6 @@ export const howItAllStarted = (
         </p>
     </>
 );
-
 export const academicRecords = (
     <>
         <p>
@@ -68,15 +70,13 @@ export const academicRecords = (
         </p>
     </>
 );
-
 export const dormitoryLife = (
     <>
         <p>
-            Lutheran High School, Obot Idim was predominantly a boarding school until the early 70s when day-studentship was introduced. Life in the dormitory was so exciting and unique that no serious minded student of the school would have ever wanted to miss the dormitory because of the friendly boarding experience, sophisticated boarding facilities down to decent meals, good discipline and high moral training and interactions/ fellowships among students. Students derived many advantages by being in the boarding house. Boarders were and still are regarded as first class citizens in the "Luthisco Republic". Female students were / are not left out. While male students are housed in four hostels namely Nau, Luther, Ekong and Konz, the girls are accommodated in the then Lizzy hall. In the then Luthsico Republic, Nau and Luther houses are popularly known as Old Colony, while Ekong and Konz houses constitute the New Colony.
+            Lutheran High School, Obot Idim was predominantly a boarding school until the early 70s when day-studentship was introduced. Life in the dormitory was so exciting and unique that no serious minded student of the school would have ever wanted to miss the dormitory because of the friendly boarding experience, sophisticated boarding facilities down to decent meals, good discipline and high moral training and interactions/fellowships among students. Students derived many advantages by being in the boarding house. Boarders were and still are regarded as first class citizens in the "Luthisco Republic". Female students were/are not left out. While male students are housed in four hostels namely Nau, Luther, Ekong and Konz, the girls are accommodated in the then Lizzy hall. In the then Luthsico Republic, Nau and Luther houses are popularly known as Old Colony, while Ekong and Konz houses constitute the New Colony.
         </p>
     </>
 );
-
 export const areasOfSignificantPerformance = (
     <>
         <p>
@@ -93,7 +93,6 @@ export const areasOfSignificantPerformance = (
         </p>
     </>  
 );
-
 export const housesAndColours = (
     <>
         <p>
@@ -104,7 +103,6 @@ export const housesAndColours = (
         </p>
     </>
 );
-
 export const trendsAssessment = (
     <>
         <p>
@@ -112,7 +110,6 @@ export const trendsAssessment = (
         </p>
     </>
 );
-
 export const chroniclesOfPrincipals = (
     <>
         <p>
@@ -120,7 +117,6 @@ export const chroniclesOfPrincipals = (
         </p>
     </>
 );
-
 export const factsFile = (
     <>
         <ul>
@@ -147,7 +143,6 @@ export const factsFile = (
         </ul>
     </>
 );
-
 export const otherLandMarks = (
     <>
         <ul>
@@ -166,44 +161,108 @@ export const otherLandMarks = (
 
 export const creditsAndReferences = (
     <>
-        <p><b>Culled from</b> the article LUTHERAN HIGH SCHOOL OBOT IDIM: HOW IT ALL BEGAN: (HISTORICAL PERSPECTIVE) by Pastor Mike Effiok-Abasi, DOS.</p>
-        <p><b>Extra inputs & modifications</b> by Current School Management.</p>
-        <b>Other References</b>
-        <p>Amamkpa, E. W., et al (1986): "A Short History of the Lutheran Church of Nigeria." Obot Idim: The Lutheran Press.</p>
-        <p>The LUTHISCOLIAN, Volume 2, Published by the Lutheran High School Students Association. 1963.</p>
+        <p><b>Culled from</b> the article LUTHERAN HIGH SCHOOL OBOT IDIM: HOW IT ALL BEGAN: (HISTORICAL PERSPECTIVE) by Pastor Mike Effiok-Abasi, DOS in the book ESSAYS IN CELEBRATION OF 60 YEARS OF EXCELLENCE IN ACADEMIC DEVELOPMENT AND LEADERSHIP by Martin Akpan, et al (2010).</p>
+        <p><b>Extra inputs, updates & modifications</b> by Current School Management.</p>
     </>
 );
 
-// Mission & Vission
-export const mission = (
+// Golden School Rules & Regulations
+export const pdf = (
     <>
         <p>
-            Content is temporarily not available 
+            We encourage all students, parents/guardians to study these rules & regulations and request compliance. For offline access,  <Link onClick={() => showUnderDev()}>click here to download as pdf.</Link>
         </p>
     </>
 );
-
-export const vision = (
+export const preamble = (
     <>
         <p>
-            Content is temporarily not available
+            Lutheran High School, Obot Idim is a co-educational Christian Institution which seeks to train its students mentally, physically and spiritually. The School therefore strives to live up to the highest principles of Christian conduct. It also recognizes to the fullest the national need for honest, God fearing and righteous citizens who would be good leaders to our society tomorrow.
+        </p>
+        <p>
+            In order to achieve this, a high standard of discipline is therefore highly necessary, hence the following rules and regulations.
         </p>
     </>
 );
+export const openingAndClosing = (
+    <>
+        <ol>
+            <li>
+                All boarders must report back to the boarding house a day to the official reopening date between the hours of 12:00pm and 5:00pm.
+            </li>
+            <li>
+                All boarders must surrender their luggage for checking by the House Master/Mistress or an accredited representative before being cleared to move into the dormitories.
+            </li>
+            <li>
+                No border will be checked into the dormitories without evidence of Fee payment - the Teller.
+            </li>
+            <li>
+                Day students must report on the official reopening date with evidence of Fee payment - the Teller and in their correct school uniform before allowed entry into the school compound.
+            </li>
+        </ol>
+    </>
+);
+export const movements = (
+    <>
+        <ol>
+            <li>
+                No student should leave the school compound without express permission from the Principal, Vice Principal, or Boarding Master/Mistress.<br/>
+                <strong>Penalty:</strong> Suspension from classes, manual labour or expulsion on the recommendation of the Disciplinary Committee. 
+            </li>
+            <li>
+                All exit/entry into the school compound must be through the main/authorized entrance - The Gate. <br/>
+                <strong>Penalty:</strong> The culprit shall be subjected to two days manual labour.
+            </li>
+            <li>
+                Students should walk on the walk paths and not accross the lawns of field(s) in the school compound.<br/>
+                <strong>Penalty:</strong> Grass cutting or planting of grass.
+            </li>
+            <li>
+                No student should be found outside their dormitories after evening meal but in their preparatory classroom except on special occassions, with express permission. In case of a variety night all students should return to their respective dormitories as soon as the event(s) is/are over
+            </li>
+            <li>
+                Absense during preparatory class and night inspection is an offence.
+            </li>
+            <li>
+                On no account ...
+            </li>
+        </ol>
+    </>
+);
 
-// Anthem & Pledge
+// School Anthem
 export const anthem = (
     <>
         <p>
-            Content is temporarily not available 
+            <strong>Verse 1</strong>
         </p>
-    </>
-);
-
-export const pledge = (
-    <>
         <p>
-            Content is temporarily not available
+            Alone gold is success;<br/>
+            Hardwork holds the key<br/>
+            A center of knowledge accesses;<br/>
+            Good aims from our toil;<br/>
+            Because in God we stand;<br/>
+            Ours is a known of all mark of<br/>
+            excellence well grounded in truth.
+        </p>
+        <p>
+            <strong>Verse 2</strong>
+        </p>
+        <p>
+            Purpose and high aims to empower us<br/>
+            to climb any height and stand<br/>
+            apart and shine like a<br/>
+            day star because in God we stand.<br/>
+        </p>
+        <p>
+            <strong>Verse 3</strong>
+        </p>
+        <p>
+            Let's put our feet in the footsteps<br/>
+            of our forbearers and learning light<br/>
+            In order to be what we can be<br/>
+            Let's hold high our aims because in<br/>
+            God we stand.<br/>
         </p>
     </>
 );
