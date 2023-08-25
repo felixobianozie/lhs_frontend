@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { showUnderDev } from '../components/UnderDevModal';
+import { showUnderDev } from '../components/modals/UnderDevModal';
 
 // Admission Status
 export const admissionStatus = (

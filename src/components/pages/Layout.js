@@ -8,7 +8,7 @@ import FlashMsg from "../FlashMsg";
 import HomeHeader from "../HomeHeader";
 import HomeTopNav from "../HomeTopNav";
 import Footer from "../Footer";
-import UnderDev from "../UnderDevModal";
+import UnderDev from "../modals/UnderDevModal";
 
 function Layout() {
     return (

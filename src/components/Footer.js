@@ -10,7 +10,7 @@ function Footer() {
             &#169; 2023 LUTHERAN HIGH SCHOOL. All rights reserved. 
             </div>
             <div className="w3-col l6 w3-center">
-                <div className="w3-padding-16" style={{marginLeft:"40%", marginRight:"auto"}}>
+                <div className="" style={{marginLeft:"40%", marginRight:"auto"}}>
                     <SocialMediaLinks/>
                 </div>
             </div>

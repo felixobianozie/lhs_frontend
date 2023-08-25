@@ -4,10 +4,10 @@ Active social media links
 
 function SocialMediaLinks() {
     return(
-        <div className="w3-cell-row" style={{maxWidth:"100px"}}>
-            <div className="w3-cell"><span className="w3-badge w3-blue"></span></div>
-            <div className="w3-cell"><span className="w3-badge w3-green"></span></div>
-            <div className="w3-cell"><span className="w3-badge w3-yellow"></span></div>
+        <div className="w3-cell-row w3-xlarge" style={{maxWidth:"100px"}}>
+            <div className="w3-cell w3-button"><span className="fab fa-whatsapp-square w3-green"></span></div>
+            <div className="w3-cell w3-button"><span className="fab fa-facebook-square w3-blue"></span></div>
+            <div className="w3-cell w3-button"><span className="fa fa-youtube-square w3-red"></span></div>
         </div>
     )
 }

@@ -27,14 +27,14 @@ function AdmissionContact() {
                 <strong>
                     <div className="w3-right w3-container">
                         <h2 className="w3-text-amber" style={mystyle}><strong>Reach Us Now!</strong></h2>
-                        <ContactIcon/>
+                        <ContactIcon icon="fas fa-map-marker-alt" />
                         <p style={mystyle}>Lutheran High School Obot Idim, <br/>Ibesikpo Asutan L.G.A, <br/>Akwa Ibom State, <br/>Nigeria</p>
-                        <ContactIcon/>
-                        <p style={mystyle}>+234-7030578960</p>
-                        <ContactIcon/>
-                        <p style={mystyle}>+234-8077609080</p>
-                        <ContactIcon/>
-                        <p style={mystyle}>lhs@gmail.com</p>
+                        <ContactIcon icon="fa fa-mobile-phone" />
+                        <p style={mystyle}>+234-8023267976</p>
+                        <ContactIcon icon="fas fa-phone" />
+                        <p style={mystyle}>+234-8032627905</p>
+                        <ContactIcon icon="fas fa-mail-bulk" />
+                        <p style={mystyle}>lutheranschools@gmail.com</p>
                         <br/>
                         <SocialMediaLinks/>
                     </div>

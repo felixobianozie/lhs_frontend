@@ -13,7 +13,7 @@ function HomeHeader() {
                 <div className="w3-container">
                     <div className="w3-xlarge w3-text-indigo"><strong>Lutheran High School</strong></div>
                     <div className="w3-large">Obot Idim, Ibesikpo Asutan LGA.</div>   
-                    <div className="w3-text-red"><i>...upholding academic standards since 1954</i></div>
+                    <div className="w3-text-red"><i>...upholding academic standards since 1950</i></div>
                 </div>  
             </div>
             {/* header logo and description for desktop display */}
@@ -34,7 +34,7 @@ function HomeHeader() {
             <div className="w3-cell-row w3-padding-16">
                 <div className="w3-cell w3-container w3-right">
                     <div><strong>Hot Line</strong></div>
-                    <div className="w3-large">+234-7030578960</div>
+                    <div className="w3-large">+234-8023267976</div>
                 </div>
                 <div className="w3-cell w3-container w3-leftbar w3-border-indigo">
                     <div><strong>Official Hours</strong></div>
