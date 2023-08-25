@@ -24,6 +24,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
+            {/* Temporary fix for github pages routing home to 404 */}
+            <Route path="lhs_frontend" element={<HomePage />} />
             {/* Public routes */}
             <Route index element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
