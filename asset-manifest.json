@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/slat_frontend/static/css/main.e9b55e40.css",
+    "main.js": "/slat_frontend/static/js/main.16777a4d.js",
+    "static/js/787.c3a20ecb.chunk.js": "/slat_frontend/static/js/787.c3a20ecb.chunk.js",
+    "static/media/admission.jpg": "/slat_frontend/static/media/admission.c80062dd30fad9552245.jpg",
+    "static/media/events.png": "/slat_frontend/static/media/events.5c8129df738657b5bb1f.png",
+    "static/media/school_girls_football.jpg": "/slat_frontend/static/media/school_girls_football.c452d3e6e3dd13783aa2.jpg",
+    "static/media/students_research.jpg": "/slat_frontend/static/media/students_research.3de6ae5ca59e64ed42df.jpg",
+    "static/media/school_gate.jpg": "/slat_frontend/static/media/school_gate.8f55319085a7e5cc776b.jpg",
+    "static/media/lhs_logo.png": "/slat_frontend/static/media/lhs_logo.b8f2792aac3c1239d5b8.png",
+    "static/media/alumni.png": "/slat_frontend/static/media/alumni.7a9e6f2d2d1c152b27a0.png",
+    "static/media/smiley 1 transparent.png": "/slat_frontend/static/media/smiley 1 transparent.66a9998df35e66898fff.png",
+    "static/media/payment.png": "/slat_frontend/static/media/payment.b55375467bc049329728.png",
+    "static/media/result.png": "/slat_frontend/static/media/result.12b657cd2e9ded2b626d.png",
+    "static/media/about_us.png": "/slat_frontend/static/media/about_us.8cb38f1cb496b62f8c6d.png",
+    "static/media/about.png": "/slat_frontend/static/media/about.0f5f5cb7dd083073f930.png",
+    "static/media/resource_center.jpg": "/slat_frontend/static/media/resource_center.aa9c351194bb994926be.jpg",
+    "static/media/hostel.jpg": "/slat_frontend/static/media/hostel.75fca0123b8a4e6ef274.jpg",
+    "static/media/library.jpg": "/slat_frontend/static/media/library.aab6f2d5a58f548f65ab.jpg",
+    "static/media/convenience.jpg": "/slat_frontend/static/media/convenience.e34889c811dc686184f8.jpg",
+    "static/media/staff.jpg": "/slat_frontend/static/media/staff.a47332f0794cb79e38c0.jpg",
+    "static/media/waec_logo.png": "/slat_frontend/static/media/waec_logo.65f38bb7768911064f24.png",
+    "static/media/ict_lab.jpg": "/slat_frontend/static/media/ict_lab.b8611e10a31d3978b2a6.jpg",
+    "static/media/neco_logo.png": "/slat_frontend/static/media/neco_logo.a6d91a5af52b5fd498cc.png",
+    "static/media/school_girl.jpeg": "/slat_frontend/static/media/school_girl.634295ba4154761d34ed.jpeg",
+    "static/media/sat_logo.png": "/slat_frontend/static/media/sat_logo.df432a4fe60f38ed0f93.png",
+    "index.html": "/slat_frontend/index.html",
+    "main.e9b55e40.css.map": "/slat_frontend/static/css/main.e9b55e40.css.map",
+    "main.16777a4d.js.map": "/slat_frontend/static/js/main.16777a4d.js.map",
+    "787.c3a20ecb.chunk.js.map": "/slat_frontend/static/js/787.c3a20ecb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9b55e40.css",
+    "static/js/main.16777a4d.js"
+  ]
+}
