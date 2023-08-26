@@ -28,7 +28,7 @@ function SliderHomeIndicator({slideIndex, currentDiv, plusDivs}) {
                 <div className="w3-display-bottomright w3-padding w3-hover-text-khaki w3-xlarge w3-text-blue" style={{cursor:"pointer"}} onClick={() => plusDivs(1)}>&#10095;</div>
             </div>
 
-            <div className="w3-center w3-section w3-display-bottommiddle" style={{width:'89%'}}>
+            <div className="w3-center w3-section w3-display-bottommiddle" style={{width:'85%'}}>
                 <SliderText slideIndex={slideIndex} />       
                 <span className={indicatorClasses[0]} onClick={() => currentDiv(0)}></span>
                 <span className={indicatorClasses[1]} onClick={() => currentDiv(1)}></span>
