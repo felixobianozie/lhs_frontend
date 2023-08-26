@@ -2,17 +2,24 @@
 Main slider on the home page
 */
 
-import { useState, useEffect } from 'react'
-import one from '../assets/school_gate.jpg'
-import two from '../assets/students_research.jpg'
-import three from '../assets/school_girls_football.jpg'
-import logo from '../assets/lhs_logo.png'
-import SliderIndicatorHome from './SliderIndicatorHome'
+import { useState, useEffect } from 'react';
+import one from '../assets/school_gate.jpg';
+import two from '../assets/students_research.jpg';
+import three from '../assets/school_girls_football.jpg';
 
+import onem from '../assets/mschool_gate.jpg'
+import twom from '../assets/mstudents_research.jpg';
+import threem from '../assets/mschool_girls_football.jpg';
+
+import logo from '../assets/lhs_logo.png';
+import SliderIndicatorHome from './SliderIndicatorHome';
 
 function SliderHome() {
   const images = [
     one, two, three
+  ]
+  const mobile = [
+    onem, twom, threem
   ]
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -47,7 +54,12 @@ function SliderHome() {
 
   return (
     <div className="w3-content w3-display-container w3-black" style={{maxWidth:"100%", backgroundImage:`url(${logo})`, backgroundRepeat:"no-repeat", backgroundPosition:"center center", backgroundSize:"200px"}}>
-      <img className='felix-animate-opacity' alt="school carousal" key={slideIndex} src={images[slideIndex]} style={{maxWidth:"100%", minHeight:"220px"}}/>
+      
+      <picture className='felix-animate-opacity' key={slideIndex}>
+        <source srcset={mobile[slideIndex]} media="(max-width: 600px)" style={{maxWidth:"100%", minHeight:"250px"}} />
+        {/* <source srcset={mobile[slideIndex]} media="(max-width: 992px)"/> */}
+        <img src={images[slideIndex]} alt="school carousal" style={{maxWidth:"100%", minHeight:"250px"}}/>
+      </picture>
 
       {/* Slider shift pointer for desktop */}
       <div className="w3-container w3-xxlarge w3-text-blue w3-hide-small w3-hide-medium" style={{maxWidth:"100%"}}>
