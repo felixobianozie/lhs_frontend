@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lhs_frontend/static/css/main.e9b55e40.css",
-    "main.js": "/lhs_frontend/static/js/main.8ed106de.js",
+    "main.js": "/lhs_frontend/static/js/main.1a20b941.js",
     "static/js/787.c3a20ecb.chunk.js": "/lhs_frontend/static/js/787.c3a20ecb.chunk.js",
     "static/media/admission.jpg": "/lhs_frontend/static/media/admission.c80062dd30fad9552245.jpg",
     "static/media/events.png": "/lhs_frontend/static/media/events.5c8129df738657b5bb1f.png",
@@ -10,7 +10,10 @@
     "static/media/school_gate.jpg": "/lhs_frontend/static/media/school_gate.8f55319085a7e5cc776b.jpg",
     "static/media/lhs_logo.png": "/lhs_frontend/static/media/lhs_logo.b8f2792aac3c1239d5b8.png",
     "static/media/alumni.png": "/lhs_frontend/static/media/alumni.7a9e6f2d2d1c152b27a0.png",
+    "static/media/mschool_gate.jpg": "/lhs_frontend/static/media/mschool_gate.76b38877c38de59b8a39.jpg",
+    "static/media/mschool_girls_football.jpg": "/lhs_frontend/static/media/mschool_girls_football.3c73746e5f7963459170.jpg",
     "static/media/smiley 1 transparent.png": "/lhs_frontend/static/media/smiley 1 transparent.66a9998df35e66898fff.png",
+    "static/media/mstudents_research.jpg": "/lhs_frontend/static/media/mstudents_research.5e421250ccdec2e819b0.jpg",
     "static/media/payment.png": "/lhs_frontend/static/media/payment.b55375467bc049329728.png",
     "static/media/result.png": "/lhs_frontend/static/media/result.12b657cd2e9ded2b626d.png",
     "static/media/about_us.png": "/lhs_frontend/static/media/about_us.8cb38f1cb496b62f8c6d.png",
@@ -27,11 +30,11 @@
     "static/media/sat_logo.png": "/lhs_frontend/static/media/sat_logo.df432a4fe60f38ed0f93.png",
     "index.html": "/lhs_frontend/index.html",
     "main.e9b55e40.css.map": "/lhs_frontend/static/css/main.e9b55e40.css.map",
-    "main.8ed106de.js.map": "/lhs_frontend/static/js/main.8ed106de.js.map",
+    "main.1a20b941.js.map": "/lhs_frontend/static/js/main.1a20b941.js.map",
     "787.c3a20ecb.chunk.js.map": "/lhs_frontend/static/js/787.c3a20ecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9b55e40.css",
-    "static/js/main.8ed106de.js"
+    "static/js/main.1a20b941.js"
   ]
 }
