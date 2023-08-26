@@ -9,8 +9,8 @@ function SignUpPage() {
 
     return(
         <>
-            <div className="w3-padding-32 w3-animate-zoom" style={{minHeight:'77vh'}}>
-                <div className="w3-card-2" style={{maxWidth:'400px', marginLeft:'auto', marginRight:'auto'}}>
+            <div className="w3-padding-32 w3-animate-zoom" style={{minHeight:'80vh'}}>
+                <div className="w3-card-2" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>
                     <form className="w3-container" action="/action_page.php">
                         <div className="w3-section">
                             <label><b>Email</b></label>
@@ -41,7 +41,7 @@ function SignUpPage() {
                         <span className="w3-right w3-padding">Already have an account? <Link to='/login' className='w3-text-light-blue'>Login</Link></span>
                     </div>
                 </div>
-                <div className="w3-button w3-block w3-section w3-card-2 w3-round-large" style={{maxWidth:'400px', marginLeft:'auto', marginRight:'auto'}}>Signup with Google</div>
+                <div className="w3-button w3-block w3-section w3-card-2 w3-round-large" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>Signup with Google</div>
             </div>
 
         </>

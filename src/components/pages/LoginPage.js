@@ -11,7 +11,6 @@ const LOGIN_URL = '/token/';
 function LoginPage() {
     const { auth, setAuth } = useAuth();
     const  emailRef = useRef();
-    const errRef = useRef();
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -62,13 +61,8 @@ function LoginPage() {
                 // Something happened in setting up the request that triggered an Error
                 setErrMsg('Login Failed! Please try again later.');
               }
-              errRef.current.focus();
         }
     }
-
-    useEffect(() => {
-      emailRef.current.focus();
-    }, [])
     
     useEffect(() => {
       setErrMsg('');
@@ -78,9 +72,9 @@ function LoginPage() {
 
     return(
         <>
-            <div className="w3-padding-64 w3-animate-zoom w3-margin-top" style={{minHeight:'77vh'}}>
-                <div className="w3-card-2 w3-margin-top" style={{maxWidth:'400px', marginLeft:'auto', marginRight:'auto'}}>
-                    <p ref={errRef} className={errMsg ? "w3-center w3-red" : "w3-hide"}>{errMsg}</p>
+            <div className="w3-padding-64 w3-animate-zoom w3-margin-top" style={{minHeight:'80vh'}}>
+                <div className="w3-card-2 w3-margin-top" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>
+                    <p className={errMsg ? "w3-center w3-red" : "w3-hide"}>{errMsg}</p>
                     <form className="w3-container" action="/action_page.php" onSubmit={handleSubmit}>
                         <div className="w3-section">
                             <label><b>Email</b></label>
@@ -114,7 +108,7 @@ function LoginPage() {
                         <span className="w3-right w3-padding w3-text-red">Forgot Password?</span>
                     </div>
                 </div>
-                <div className="w3-button w3-block w3-section w3-card-2 w3-round-large" style={{maxWidth:'400px', marginLeft:'auto', marginRight:'auto'}}>Login with Google</div>
+                <div className="w3-button w3-block w3-section w3-card-2 w3-round-large" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>Login with Google</div>
             </div>
         </>
     )
