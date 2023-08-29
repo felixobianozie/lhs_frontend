@@ -4,7 +4,7 @@ import AboutPage from "./components/pages/AboutPage";
 import HomePage from './components/pages/HomePage';
 import AdmissionPage from './components/pages/AdmissionPage';
 import FeesPage from './components/pages/FeesPage';
-import CalendarPage from './components/pages/CalendarPage';
+import NoticeBoardPage from './components/pages/NoticeBoardPage';
 import AlumniPage from './components/pages/AlumniPage';
 import ResultsPage from './components/pages/ResultsPage';
 import NoPage from "./components/pages/NoPage";
@@ -31,7 +31,7 @@ function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="admission" element={<AdmissionPage />} />
             <Route path="fees" element={<FeesPage />} />
-            <Route path="events" element={<CalendarPage />} />
+            <Route path="notice" element={<NoticeBoardPage />} />
             <Route path="results" element={<ResultsPage />} />
             <Route path="alumni" element={<AlumniPage />} />
             <Route path="*" element={<NoPage />} />

@@ -1,4 +1,13 @@
 // 2023/2024 School Calendar
+export const announcements = (
+    <>
+        <p>
+            Content is temporarily not available 
+        </p>
+    </>
+);
+
+// 2023/2024 School Calendar
 export const calendar = (
     <>
         <p>
