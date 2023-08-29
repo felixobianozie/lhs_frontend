@@ -13,7 +13,7 @@ function HomeTopNav() {
     const activeM = "w3-button w3-round-large w3-card-2 w3-text-red";
     const inactiveM = "w3-button w3-round-large w3-card-2";
     const myTitle = ['LHS | Home', 'LHS | About', 'LHS | Admission', 'LHS | Payments', 'LHS | Calendar', 'LHS | Results', 'LHS | Alumni']
-    const mobileStyle = {width: "90%", marginBottom: "5px"}
+    const mobileStyle = {width: "90%", marginBottom: "5px"};
 
     const [tabClass, setTabClass] = useState([active, inactive, inactive, inactive, inactive, inactive, endLink]);
     const [tabClassM, setTabClassM] = useState([activeM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM]);

@@ -56,7 +56,7 @@ function SliderHome() {
     <div className="w3-content w3-display-container w3-black" style={{maxWidth:"100%", backgroundImage:`url(${logo})`, backgroundRepeat:"no-repeat", backgroundPosition:"center center", backgroundSize:"200px"}}>
       
       <picture className='felix-animate-opacity' key={slideIndex}>
-        <source srcset={mobile[slideIndex]} media="(max-width: 600px)" style={{maxWidth:"100%", minHeight:"230px"}} />
+        <source srcSet={mobile[slideIndex]} media="(max-width: 600px)" style={{maxWidth:"100%", minHeight:"230px"}} />
         {/* <source srcset={mobile[slideIndex]} media="(max-width: 992px)"/> */}
         <img src={images[slideIndex]} alt="school carousal" style={{maxWidth:"100%", minHeight:"230px"}}/>
       </picture>

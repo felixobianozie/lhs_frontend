@@ -9,7 +9,7 @@ import useAuth from "../../hooks/useAuth";
 const LOGIN_URL = '/token/';
 
 function LoginPage() {
-    const { auth, setAuth } = useAuth();
+    const { setAuth } = useAuth();
     const  emailRef = useRef();
 
     const navigate = useNavigate();
@@ -23,7 +23,7 @@ function LoginPage() {
         const name = event.target.name;
         const value = event.target.value;
         setInputs(prev => ({...prev, [name]: value}))
-    }
+    };
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -38,7 +38,6 @@ function LoginPage() {
             );
             setAuth({ email: inputs?.email, password: inputs?.password,  accessToken: response?.data?.access, isAuthenticated: true});
             setInputs({...inputs, email:'', password:''});
-            console.log(JSON.stringify(auth)); // just for testing purposes only
             navigate(from, {replace: true});
             
         } catch (error) {
@@ -72,8 +71,8 @@ function LoginPage() {
 
     return(
         <>
-            <div className="w3-padding-64 w3-animate-zoom w3-margin-top" style={{minHeight:'80vh'}}>
-                <div className="w3-card-2 w3-margin-top" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>
+            <div className="w3-padding-64 w3-animate-zoom" style={{minHeight:'80vh'}}>
+                <div className="w3-card-2" style={{maxWidth:'350px', marginLeft:'auto', marginRight:'auto'}}>
                     <p className={errMsg ? "w3-center w3-red" : "w3-hide"}>{errMsg}</p>
                     <form className="w3-container" action="/action_page.php" onSubmit={handleSubmit}>
                         <div className="w3-section">
