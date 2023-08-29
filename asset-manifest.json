@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lhs_frontend/static/css/main.e9b55e40.css",
-    "main.js": "/lhs_frontend/static/js/main.8ab11571.js",
+    "main.js": "/lhs_frontend/static/js/main.068e5672.js",
     "static/js/787.c3a20ecb.chunk.js": "/lhs_frontend/static/js/787.c3a20ecb.chunk.js",
     "static/media/admission.jpg": "/lhs_frontend/static/media/admission.c80062dd30fad9552245.jpg",
     "static/media/events.png": "/lhs_frontend/static/media/events.5c8129df738657b5bb1f.png",
@@ -30,11 +30,11 @@
     "static/media/sat_logo.png": "/lhs_frontend/static/media/sat_logo.df432a4fe60f38ed0f93.png",
     "index.html": "/lhs_frontend/index.html",
     "main.e9b55e40.css.map": "/lhs_frontend/static/css/main.e9b55e40.css.map",
-    "main.8ab11571.js.map": "/lhs_frontend/static/js/main.8ab11571.js.map",
+    "main.068e5672.js.map": "/lhs_frontend/static/js/main.068e5672.js.map",
     "787.c3a20ecb.chunk.js.map": "/lhs_frontend/static/js/787.c3a20ecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9b55e40.css",
-    "static/js/main.8ab11571.js"
+    "static/js/main.068e5672.js"
   ]
 }
