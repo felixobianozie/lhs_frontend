@@ -7,6 +7,7 @@ import Section from '../Section'
 import SubSection from '../SubSection'
 
 function ResultsPage() {
+    document.title = 'LHS | Results';
 
     return (
         <>

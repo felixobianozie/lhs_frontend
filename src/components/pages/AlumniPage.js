@@ -8,6 +8,7 @@ import Section from '../Section';
 import SubSection from '../SubSection';
 
 function AlumniPage() {
+    document.title = 'LHS | Alumni';
 
     return (
         <>

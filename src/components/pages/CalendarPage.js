@@ -8,6 +8,7 @@ import Section from '../Section';
 import SubSection from '../SubSection';
 
 function CalendarPage() {
+    document.title = 'LHS | Notice';
 
     return (
         <>

@@ -9,6 +9,8 @@ import AdmissionContact from '../AdmissionContact';
 import SignInUpDesktop from '../SignInUpDesktop';
 
 function Home() {
+    document.title = 'LHS | Home';
+    
     return (
         <> 
             <SliderHome/>

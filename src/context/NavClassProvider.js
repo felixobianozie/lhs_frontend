@@ -12,11 +12,6 @@ export function NavClassProvider ({children}) {
     const endLink = 'w3-cell w3-button w3-hide-small w3-hide-medium';
     const activeM = "w3-button w3-round-large w3-card-2 w3-text-red";
     const inactiveM = "w3-button w3-round-large w3-card-2";
-    const myTitle = ['LHS | Home', 'LHS | About', 'LHS | Admission', 'LHS | Payments', 'LHS | Calendar', 'LHS | Results', 'LHS | Alumni']
-
-    // Navigation classes for all available top nav elements
-    // const [topNav, setTopNav] = useState([active, inactive, inactive, inactive, inactive, inactive, endLink]);
-    // const [topNavM, setTopNavM] = useState([activeM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM]);
 
     // Navigation classes for all available top nav elements
     const [topNav, setTopNav] = useState({desk: [active, inactive, inactive, inactive, inactive, inactive, endLink], mob: [activeM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM, inactiveM]});
@@ -50,30 +45,9 @@ export function NavClassProvider ({children}) {
                     newState.mob.push(tmp4);
                 }
             };
-            document.title = myTitle[n];
             return newState;
         });
       }
-
-    // Change active tab to red for mobile viewports
-    // Change all tabs to no color when active page does not have a top tab link for mobile viewports
-    // function switchTabIndicatorMobile (n) {
-    // setTopNavM(p => {
-    //     const prev = p.mob;
-    //     let newState = [];
-    //     for (let i = 0; i < prev.length; i++) {
-    //         let tmp = activeM;
-    //         let tmp2 = inactiveM;
-    //         if (i === n) {
-    //             newState.push(tmp);
-    //         } else {
-    //             newState.push(tmp2);
-    //         }
-    //     };
-    //     document.title = myTitle[n];
-    //     return newState
-    // });
-    // }
 
     return(
         <NavClassContext.Provider value={{ topNav, setTopNav, switchTabIndicator}}>

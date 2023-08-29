@@ -7,6 +7,7 @@ import Section from '../Section';
 import SubSection from '../SubSection';
 
 function AboutPage() {
+    document.title = 'LHS | About';
 
     return (
         <>

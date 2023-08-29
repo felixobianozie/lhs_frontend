@@ -4,6 +4,7 @@
 import payment from '../../assets/payment.png'
 
 function FeesPage() {
+    document.title = 'LHS | Fees';
 
     return (
         <>
