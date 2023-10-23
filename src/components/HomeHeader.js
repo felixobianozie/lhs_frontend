@@ -37,8 +37,8 @@ function HomeHeader() {
             <div className="w3-hide-medium w3-hide-large">
                 <div className="w3-cell-row w3-padding-16">
                     <div className="w3-cell w3-container w3-right">
-                        <div className="w3-right"><strong>Hot Line</strong></div><br/>
-                        <div>08023267976</div>
+                        <div className="w3-right"><strong>School Line</strong></div><br/>
+                        <div>+2348023267976</div>
                     </div>
                     <div className="w3-cell w3-container w3-border-left w3-border-indigo">
                         <div><strong>Official Hours</strong></div>
@@ -51,7 +51,7 @@ function HomeHeader() {
             <div className="w3-col l6 w3-hide-small">
                 <div className="w3-cell-row w3-padding-16">
                     <div className="w3-cell w3-container w3-right">
-                        <div><strong>Hot Line</strong></div>
+                        <div><strong>School Line</strong></div>
                         <div className="w3-large">+234-8023267976</div>
                     </div>
                     <div className="w3-cell w3-container w3-leftbar w3-border-indigo">
